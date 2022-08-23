@@ -1,0 +1,204 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html,body
+{
+width:100%;
+height:100%;
+}
+h2
+{
+    font-size: 150%;;
+}
+.tophead> p
+{
+    font-size: 50%;
+}
+.top
+{
+    background-color:steelblue;
+    width:100%;
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.tophead
+{
+    border:3px solid salmon;
+    width:40%;
+    height:60px;
+    padding:4px;
+    padding-top:0px;
+    display:flex;
+    flex-direction: column;
+
+}
+.textcenter
+{
+    text-align: center;
+    padding:2px;
+}
+.smalltext
+{
+    font-size: 12px;
+}
+.boldtext
+{
+    font-weight: bold;
+}
+.blackbtn
+{
+    background-color: black;
+    height:30px;
+    width:100px;
+}
+
+.whitetext
+{
+    color: white;
+}
+.nav
+{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:5px;
+    flex-wrap: wrap;
+    
+}
+.navleft
+{
+    flex-basis:30%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding:10px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    /* border: 2px solid black; */
+}
+#navlefttext
+{
+    flex-basis:30%;
+    height:50%;
+    margin:2px;
+}
+.navmiddle
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis:20%;
+    height:50%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    /* border: 2px solid red; */
+    padding: 10px;;
+    align-self: flex-start;
+}
+.navright
+{
+    flex-grow: 2;
+    flex-shrink: 2;
+    width:25%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+input[type="email"]
+{
+    width:60%;
+    margin-bottom: 6px;;
+    height: 30px;
+    font-size: 20px;
+}
+#dropdown1
+{
+    width: 70%;
+    height:35px;
+    margin-top: 6px;;
+    font-size: 20px;
+}
+.minimumpadding
+{
+    margin: 5px;
+}
+.container2
+{
+    margin-left:10%;
+    width: 80%;
+}
+.horizontal_line{
+    background-color: rgb(2, 14, 2);
+    width: 100%;
+    height: 2px;
+    border-top: 2px solid black;
+    margin: auto;
+    margin-top:7px;
+    margin-bottom: 12px;;
+    
+}
+.orangebtn
+{
+    background-color: rgb(184, 125, 15);
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;;
+}
+.bookholder
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    flex:1;
+}
+
+img
+{
+    max-width: 100%;
+    height: 100%;
+}
+.bookpic
+{
+    flex-basis:250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 30px;;
+    margin-left: auto;
+    border: 2px solid green;
+}
+.bookdetails
+{
+    display: flex;
+    /* flex-basis: 300px; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
