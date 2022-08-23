@@ -49,6 +49,8 @@ h2
 .boldtext
 {
     font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
 }
 .blackbtn
 {
@@ -103,7 +105,7 @@ h2
     text-align: center;
     /* border: 2px solid red; */
     padding: 10px;;
-    align-self: flex-start;
+    align-self: center;
     
 }
 .navright
@@ -158,13 +160,15 @@ input[type="email"]
     width: 200px;
     height: 30px;
     margin-top: 5px;
-    transition: width 1s;
+    transition: width 2s;
     border-radius: 4px;
+    font-size: 18px;
+    align-self: center;
 }
 .orangebtn:hover
 {
     background-color: rgb(235, 112, 114);
-    width: 250px;
+    width: 100%;
     border-radius: 8px;
 }
 .bookholder
@@ -219,15 +223,43 @@ footer
    {
     /* background-color: red; */
    }
+   .nav{
+    border: 2px solid white;
+   }
+   .navleft
+    {
+        display: flex;
+        flex-basis: 10%;
+        border: 2px solid white;
+    }
+    #dropdown1
+    {
+        width: 100%;
+    }
+    .navmiddle
+    {
+        border: 2px solid white;
+        align-self: center;
+    }
+    .navright
+    {
+        border: 2px solid white;
+        
+    }
+    input[type="email"]
+    {
+        width:80%;
+        margin-bottom: 6px;;
+        height: 30px;
+        font-size: 20px;
+    }
     .blackbtn
     {
         width: 80%;
+        font-size: 18px;
+        border-radius: 4px;
     }
-    .navleft
-    {
-        display: flex;
-        flex-basis: 10%;;
-    }
+    
     .bookholder
     {
         display: grid;
@@ -237,7 +269,7 @@ footer
     img
     {
         width: 120%;
-        height: 120%;
+        height: 100%;
     }
     .bookpic
     {
@@ -245,6 +277,8 @@ footer
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        
     }
     p
     {
