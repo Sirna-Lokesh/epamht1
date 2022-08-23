@@ -28,14 +28,14 @@ h2
 }
 .tophead
 {
-    border:3px solid salmon;
+    border:3px solid rgb(232, 191, 79);
     width:40%;
     height:60px;
     padding:4px;
     padding-top:0px;
     display:flex;
     flex-direction: column;
-
+    box-shadow: 2px 2px  #d2d3ed;
 }
 .textcenter
 {
@@ -147,7 +147,7 @@ input[type="email"]
     border-top: 2px solid black;
     margin: auto;
     margin-top:7px;
-    margin-bottom: 12px;;
+    margin-bottom: 12px;
     
 }
 .orangebtn
@@ -155,7 +155,13 @@ input[type="email"]
     background-color: rgb(184, 125, 15);
     width: 200px;
     height: 30px;
-    margin-top: 5px;;
+    margin-top: 5px;
+    transition: width 1s;
+}
+.orangebtn:hover
+{
+    background-color: rgb(235, 112, 114);
+    width: 250px;
 }
 .bookholder
 {
