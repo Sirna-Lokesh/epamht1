@@ -66,24 +66,25 @@ h2
     margin-top: 20px;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding:5px;
     flex-wrap: wrap;
-    
 }
+
 .navleft
 {
     flex-basis:30%;
     height:50%;
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     padding:10px;
     flex-grow: 2;
     flex-shrink: 2;
     /* border: 2px solid black; */
 }
+
 #navlefttext
 {
     flex-basis:30%;
@@ -99,10 +100,11 @@ h2
     display: flex; 
     flex-direction: row;
     justify-content: flex-start;
-    
+    text-align: center;
     /* border: 2px solid red; */
     padding: 10px;;
     align-self: flex-start;
+    
 }
 .navright
 {
@@ -157,11 +159,13 @@ input[type="email"]
     height: 30px;
     margin-top: 5px;
     transition: width 1s;
+    border-radius: 4px;
 }
 .orangebtn:hover
 {
     background-color: rgb(235, 112, 114);
     width: 250px;
+    border-radius: 8px;
 }
 .bookholder
 {
@@ -207,4 +211,57 @@ footer
     align-items: center;
     margin-top: 5px;
 }
+
+@media only screen and (max-width: 650px)
+{
+
+   body 
+   {
+    /* background-color: red; */
+   }
+    .blackbtn
+    {
+        width: 80%;
+    }
+    .navleft
+    {
+        display: flex;
+        flex-basis: 10%;;
+    }
+    .bookholder
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    img
+    {
+        width: 120%;
+        height: 120%;
+    }
+    .bookpic
+    {
+        border: 5px solid rgb(252, 248, 248);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p
+    {
+        text-align: justify;
+    }
+    .tophead>p 
+    {
+        display: none;
+    }
+    .bookdetails
+    {
+        border: 3px solid white;
+        margin-top: 5px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+}
+
 
