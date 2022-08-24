@@ -163,12 +163,12 @@ input[type="email"]
     transition: width 2s;
     border-radius: 4px;
     font-size: 18px;
-    align-self: center;
+    
 }
 .orangebtn:hover
 {
     background-color: rgb(235, 112, 114);
-    width: 100%;
+    width: 50%;
     border-radius: 8px;
 }
 .bookholder
@@ -216,7 +216,7 @@ footer
     margin-top: 5px;
 }
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 750px)
 {
 
    body 
@@ -225,12 +225,15 @@ footer
    }
    .nav{
     border: 2px solid white;
+    display: flex;
+    flex-direction: column;
    }
    .navleft
     {
         display: flex;
-        flex-basis: 10%;
+        width: 100%;
         border: 2px solid white;
+        justify-content: center;
     }
     #dropdown1
     {
@@ -239,12 +242,15 @@ footer
     .navmiddle
     {
         border: 2px solid white;
-        align-self: center;
+        align-self: flex-start;
+        width: 100%;
+        justify-content: start;
     }
     .navright
     {
         border: 2px solid white;
-        
+        width: 100%;
+        justify-content: center;
     }
     input[type="email"]
     {
@@ -284,9 +290,13 @@ footer
     {
         text-align: justify;
     }
+    .tophead
+    {
+        width: 50%;
+    }
     .tophead>p 
     {
-        display: none;
+        font-size: 10px;
     }
     .bookdetails
     {
@@ -294,6 +304,10 @@ footer
         margin-top: 5px;
         display: flex;
         align-items: flex-start;
+    }
+    .orangebtn
+    {
+        align-self: center;
     }
     
 }
